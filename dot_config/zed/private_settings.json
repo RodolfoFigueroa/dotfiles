@@ -1,0 +1,109 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "unnecessary_code_fade": 0.7,
+  "buffer_line_height": {
+    "custom": 1.2999999523162842
+  },
+  "buffer_font_family": "Monaspace Neon Frozen",
+  "terminal": {
+    "font_family": ".ZedMono"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": false,
+  "completion_menu_scrollbar": "auto",
+  "completions": {
+    "words": "fallback"
+  },
+  "inlay_hints": {
+    "show_type_hints": false,
+    "show_background": true,
+    "enabled": false,
+  },
+  "code_lens": "off",
+  "show_completion_documentation": true,
+  "go_to_definition_fallback": "find_all_references",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "show_turn_stats": true,
+    "use_modifier_to_send": true,
+    "notify_when_agent_waiting": "all_screens",
+    "dock": "right",
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4-6",
+    },
+  },
+  "project_panel": {
+    "hide_root": false,
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "allow_data_collection": "no",
+    "provider": "copilot",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "default_config_options": {
+        "reasoning_effort": "high",
+        "model": "claude-sonnet-4.6",
+      },
+      "type": "registry",
+    },
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Dracula",
+  },
+  "languages": {
+    "Python": {
+      "document_symbols": "off",
+      "completions": {
+        "words": "fallback"
+      },
+      "language_servers": ["ty", "ruff", "!basedpyright"],
+    },
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "all",
+  },
+  "lsp": {
+    "ty": {
+      "settings": {
+        "completions": {
+          "autoImport": false,
+        },
+      },
+    },
+  },
+}
