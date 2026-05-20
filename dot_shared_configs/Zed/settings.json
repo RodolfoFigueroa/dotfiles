@@ -81,8 +81,8 @@
   "buffer_font_size": 16.0,
   "theme": {
     "mode": "system",
-    "light": "One Light",
-    "dark": "Dracula",
+    "light": "Zedokai Light",
+    "dark": "Zedokai",
   },
   "languages": {
     "Python": {
