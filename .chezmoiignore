@@ -1,9 +1,0 @@
-{{ if ne .chezmoi.os "darwin" }}
-.config/zed/settings.json
-.config/zed/keymap.json
-{{ end }}
-
-{{ if ne .chezmoi.os "windows" }}
-C:/Users/{{ .chezmoi.username }}/AppData/Local/Zed/settings.json
-C:/Users/{{ .chezmoi.username }}/AppData/Local/Zed/keymap.json
-{{ end }}
