@@ -1,0 +1,9 @@
+{{ if eq .chezmoi.os "windows" }}
+dot_config/Zed/symlink_keymap.json.tmpl
+dot_config/Zed/symlink_settings.json.tmpl
+
+{{ else if eq .chezmoi.os "darwin" }}
+AppData/Roaming/Zed/symlink_keymap.json.tmpl
+AppData/Roaming/Zed/symlink_settings.json.tmpl
+
+{{ end }}
